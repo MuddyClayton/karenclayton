@@ -5,34 +5,43 @@
   <meta charset="UTF-8">
   <title>Karen Clayton</title>
   <style>
-    body {
-      margin: 0;
-      background: url('slate.png') no-repeat center center / contain;
-      background-size: cover;
-      font-family: 'Bebas Neue', sans-serif;
-    }
-    a.name-link {
-      position: absolute;
-      top: 12.5%;
-      left: 12.5%;
-      width: 250px;
-      height: 50px;
-      text-decoration: none;
-      color: #f5d383;
-    }
-    a.name-link:hover {
-      color: #f9e2a7;
-    }
-    a.email-link {
-      position: absolute;
-      bottom: 6%;
-      right: 6%; 
-      width: 220px;
-      height: 30px;
-      text-decoration: none;
-      color: white;
-    }
-  </style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    background: url('slate.png') no-repeat center center / contain;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  a.name-link {
+    position: absolute;
+    top: 13.5%;
+    left: 9.5%;
+    width: 18%;
+    height: 4.5%;
+    text-decoration: none;
+    color: #f5d382;
+  }
+
+  a.name-link:hover {
+    color: #f9e2a7;
+  }
+
+  a.email-link {
+    position: absolute;
+    bottom: 4.5%;
+    right: 6%;
+    width: 27%;
+    height: 3%;
+    text-decoration: none;
+    color: white;
+  }
+</style>
 </head>
 <body>
   <a href="contact.vcf" class="name-link" title="Download vCard"></a>
